@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Nilderson Chávez </title>
+    <meta name="description" content="Portafolio profesional de Nilderson Chávez: proyectos de desarrollo web, diseño UI, redes y sistemas. Certificaciones CCNA.">
+    <meta name="keywords" content="portafolio, desarrollo web, Nilderson Chávez, HTML, CSS, JavaScript, proyectos, CCNA, sistemas, redes, Bootstrap">
+    <meta name="author" content="Nilderson Chávez">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="brand">
+                <img src="images/logo.png" alt="Logo personal" class="logo-img">
+                <span class="brand-phrase" data-i18n="footer.tagline">"Transformando ideas en experiencias digitales"</span>
+            </div>
+            
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio" data-i18n="nav.inicio">Inicio</a></li>
+                <li><a href="#sobre-mi" data-i18n="nav.sobreMi">Sobre Mí</a></li>
+                <li><a href="#proyectos" data-i18n="nav.proyectos">Proyectos</a></li>
+                <li><a href="#contacto" data-i18n="nav.contacto">Contacto</a></li>
+
+                <li>
+                    <select id="language-selector">
+                        <option value="es">Español</option>
+                        <option value="en">English</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección Inicio -->
+    <section id="inicio">
+        <div class="section-container">
+            <div class="hero">
+                <img src="images/perfil.png" alt="Foto de perfil" class="profile-img">
+                <h1 data-i18n="hero.title">Nilderson Chávez</h1>
+                <h2 data-i18n="hero.subtitle">Estudiante de ingenieria en sistemas y redes informáticas</h2>
+                <a href="#proyectos" class="btn" data-i18n="hero.button">Ver mis proyectos</a>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/alexis-ch%C3%A1vez-a03a42353/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/AlexisChavez2003" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi">
+        <div class="section-container">
+            <h2 class="section-title" data-i18n="about.title">Sobre Mí</h2>
+            
+            <div class="about-content">
+                <!-- Columna izquierda: Texto sobre mí -->
+                <div class="about-text">
+                    <h3 data-i18n="about.greeting">¡Hola! Soy Nilderson Chávez</h3>
+                    <p data-i18n="about.paragraph1">Soy un apasionado de la tecnología con experiencia en sistemas operativos y un gran interés en el diseño de sitios web y la electrónica. Siempre estoy aprendiendo nuevas herramientas y tecnologías para mejorar mis habilidades y llevar mis proyectos al siguiente nivel.</p>
+                    <p data-i18n="about.paragraph2">Desde siempre, me ha fascinado cómo la tecnología puede transformar la vida de las personas. Disfruto explorando nuevos sistemas operativos, optimizando su rendimiento y entendiendo su funcionamiento a fondo. Me gusta mantenerme actualizado en tendencias tecnológicas, ya sea en desarrollo web, administración de sistemas o proyectos de hardware.</p>
+                    
+                    <div class="download-cv">
+                        <a href="https://drive.google.com/file/d/1NByFdfJJH5EmtuU3a9vKNIDOjRDOGlpn/view?usp=sharing" class="btn" download><i class="fas fa-download"></i> <span data-i18n="about.download">Descargar CV</span></a>
+                    </div>
+                     
+
+                </div>
+                
+                
+                <!-- Columna derecha: Imagen y habilidades -->
+                <div class="about-right-column">
+                    <div class="about-image">
+                    </div>
+                    
+                    <div class="skills-container">
+                        <h4 data-i18n="about.skills">Mis Habilidades</h4>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>40%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 40%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>44%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 44%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML/CSS</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Bootstrap</span>
+                                <span>30%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 30%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+            <!-- Sección de Certificados -->
+        <div class="certifications-section">
+        <h4 data-i18n="cert.title">🏅 Premios y Reconocimientos</h4>
+        <div class="certifications-grid align-left">
+
+            <div class="certification-item">
+            <h5 data-i18n="cert.cert1.title">📜 Reconocimiento por haber participado activamente en el congreso CLIC 2023</h5>
+            <p data-i18n="cert.cert1.desc">Otorgado por la Universidad Gerardo Barrios.</p>
+            <img src="images/CLIC2023.png" alt="CCNA Introduction to Networks" class="cert-img">
+            </div>
+
+            <div class="certification-item">
+            <h5 data-i18n="cert.cert2.title">📜 Certificación CCNA: Introduction to Networks</h5>
+            <p data-i18n="cert.cert2.desc">Otorgada por Cisco Networking Academy.</p>
+            <img src="images/introduction-to-networks.png" alt="CCNA Introduction to Networks" class="cert-img">
+            </div>
+
+            <div class="certification-item">
+            <h5 data-i18n="cert.cert3.title">📜 Certificación CCNA: Switching, Routing and Wireless Essentials</h5>
+            <p data-i18n="cert.cert3.desc">Otorgada por Cisco Networking Academy.</p>
+            <img src="images/Switching.png" alt="CCNA SRWE" class="cert-img">
+            </div>
+
+            <div class="certification-item">
+            <h5 data-i18n="cert.cert4.title">🏆 3er Lugar - Cisco Networking Challenge 2025</h5>
+            <p data-i18n="cert.cert4.desc">Reconocimiento por destacada participación en competencia de redes.</p>
+            <img src="images/Networking-challenge.jpeg" alt="Diploma Networking Challenge" class="cert-img">
+            </div>
+
+        </div>
+        </div>
+
+
+            
+    <!-- Modal de Imagen Ampliada -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg" alt="">
+        <div id="caption"></div>
+    </div>
+
+    <!-- Script para funcionalidad del modal -->
+    <script>
+        const modal = document.getElementById("imageModal");
+        const modalImg = document.getElementById("modalImg");
+        const captionText = document.getElementById("caption");
+        const closeBtn = document.getElementsByClassName("close")[0];
+        const images = document.querySelectorAll(".cert-img");
+
+        images.forEach(img => {
+        img.addEventListener("click", () => {
+            modal.style.display = "block";
+            modalImg.src = img.src;
+            captionText.textContent = img.alt;
+        });
+        });
+
+        closeBtn.onclick = () => {
+        modal.style.display = "none";
+        };
+
+        modal.onclick = (event) => {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+        };
+    </script>
+
+
+
+    <!-- Sección Proyectos -->
+                <section id="proyectos">
+                    <div class="section-container">
+                        <h2 class="section-title" data-i18n="projects.title">Mis Proyectos</h2>
+                        <div class="projects-grid">
+                            <!-- Proyecto 1 -->
+                            <div class="project-card">
+                    <img src="images/webhuellitas.png" alt="pagina web de refugio" class="project-img">
+                    <div class="project-info">
+                    <h3 data-i18n="projects.project1.title">Sitio web para refugio de mascotas</h3>
+                    <p data-i18n="projects.project1.description">...</p>
+                    <div class="project-links">
+                        <a href="https://alexischavez2003.github.io/Huellitas_Urbanas_Web/" target="_blank">
+                        <span data-i18n="projects.demo">Ver demo</span> <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2 -->
+                <div class="project-card">
+                    <img src="images/huellitas.png" alt="sistema de adopciones de mascotas" class="project-img">
+                    <div class="project-info">
+                    <h3 data-i18n="projects.project2.title">Sistema de gestión para un refugio de mascotas</h3>
+                    <p data-i18n="projects.project2.description">...</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">
+                        <span data-i18n="projects.demo">Ver demo</span> <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <!-- Proyecto 3 -->
+               <!-- <div class="project-card">
+                    <img src="https://via.placeholder.com/400x300" alt="Proyecto 3" class="project-img">
+                    <div class="project-info">
+                        <h3 data-i18n="projects.project3.title">Sistema de Dashboard</h3>
+                        <p data-i18n="projects.project3.description">Diseño de sistema de administración con visualización de datos complejos de manera clara y accionable.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><span data-i18n="projects.prototype">Ver prototipo</span> <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    </section>
+
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <div class="section-container">
+            <h2 class="section-title" data-i18n="contact.title">Contacto</h2>
+            <p data-i18n="contact.description">¿Te gustaría trabajar conmigo o tienes alguna pregunta? ¡Hablemos!</p>
+            
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> nilderson@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +503 6424-5174</p>
+                <p><i class="fas fa-map-marker-alt"></i> Santa Elena, Usulután, El Salvador</p>
+            </div>
+
+            <div class="contact-social-links">
+                <a href="https://www.linkedin.com/in/alexis-ch%C3%A1vez-a03a42353/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/AlexisChavez2003" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">MiPortafolio</div>
+            <p data-i18n="footer.tagline">Transformando ideas en experiencias digitales</p>
+            <ul class="footer-links">
+                <li><a href="#inicio" data-i18n="nav.inicio">Inicio</a></li>
+                <li><a href="#sobre-mi" data-i18n="nav.sobreMi">Sobre Mí</a></li>
+                <li><a href="#proyectos" data-i18n="nav.proyectos">Proyectos</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/alexis-ch%C3%A1vez-a03a42353/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/AlexisChavez2003" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <p class="copyright" data-i18n="footer.copyright">© 2025 Mi Portafolio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+   
+<script src="lang.js"></script>
+  
+
+</body>
+</html>
