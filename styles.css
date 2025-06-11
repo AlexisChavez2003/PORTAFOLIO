@@ -695,7 +695,7 @@ padding-left: 60px !important; /* ajusta el valor si lo quieres más pegado */
 .contact-social-links a {
     margin: 0 10px;
     font-size: 24px;
-    color: #333;
+    color: #333333;
     transition: color 0.3s;
 }
 
@@ -703,5 +703,115 @@ padding-left: 60px !important; /* ajusta el valor si lo quieres más pegado */
     color: #0077b5; /* color LinkedIn por ejemplo */
 }
 
+#contacto {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgb(52, 72, 88);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #faebeb;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    resize: vertical;
+}
+
+.contact-form button.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Testimonios */
+
+#testimonios {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.testimonial-img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.testimonial-info h3 {
+  margin: 0.5rem 0 0.25rem 0;
+  font-size: 1.2rem;
+}
+
+.testimonial-info p {
+  margin: 0 0 1rem 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.testimonial-info .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.testimonial-info .btn:hover {
+  background-color: #0056b3;
+}
 
 
