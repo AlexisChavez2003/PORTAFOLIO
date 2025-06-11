@@ -106,4 +106,20 @@ modal.onclick = function(event) {
   }
 }
 
+// Responsive font size adjustment
+window.addEventListener('resize', () => {
+  const width = window.innerWidth;
+
+  if (width < 768) {
+    document.body.style.fontSize = '14px';
+  } else {
+    document.body.style.fontSize = '16px';
+  }
+});
+
+document.querySelector(".menu-toggle").addEventListener("click", function () {
+    this.classList.toggle("active");
+    document.querySelector(".nav-links").classList.toggle("active");
+});
+
 
